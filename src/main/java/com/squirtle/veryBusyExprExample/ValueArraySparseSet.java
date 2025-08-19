@@ -1,4 +1,4 @@
-package com.squirtle.veryBusyExprAnalysis;
+package com.squirtle.veryBusyExprExample;
 
 import soot.EquivTo;
 import soot.jimple.Expr;

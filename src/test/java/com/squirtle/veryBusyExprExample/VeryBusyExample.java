@@ -1,4 +1,4 @@
-package com.squirtle.veryBusyExprAnalysis;
+package com.squirtle.veryBusyExprExample;
 
 public class VeryBusyExample {
 

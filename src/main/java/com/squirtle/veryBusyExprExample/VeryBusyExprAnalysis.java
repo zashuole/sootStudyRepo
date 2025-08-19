@@ -1,4 +1,4 @@
-package com.squirtle.veryBusyExprAnalysis;
+package com.squirtle.veryBusyExprExample;
 
 import soot.*;
 import soot.jimple.Expr;
