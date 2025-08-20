@@ -36,13 +36,13 @@ public class VeryBusyExprAnalysis {
         Options.v().set_allow_phantom_refs(true);
 
         // 先把目标类提升到 SIGNATURES 层级
-        Scene.v().addBasicClass("com.squirtle.VeryBusyExample", SootClass.SIGNATURES);
+        Scene.v().addBasicClass("com.squirtle.veryBusyExprExample.VeryBusyExample", SootClass.SIGNATURES);
 
         // 加载必要的类
         Scene.v().loadNecessaryClasses();
 
         // 获取 SootClass
-        SootClass c = Scene.v().getSootClass("com.squirtle.VeryBusyExample");
+        SootClass c = Scene.v().getSootClass("com.squirtle.veryBusyExprExample.VeryBusyExample");
         c.setApplicationClass();
 
         // 升级到 BODIES 层级
