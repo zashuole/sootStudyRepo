@@ -1,8 +1,9 @@
 package com.squirtle.intraprocedural;
 
 public class ConstantDemo {
-
+    private int num;
     void assign() {
+        num = 42;
         int x = 1, y;
         x = 2;
         x = 3;
