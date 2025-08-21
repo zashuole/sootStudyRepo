@@ -1,6 +1,5 @@
-package com.squirtle.constant;
+package com.squirtle.intraConstant;
 
-import polyglot.ast.Assign;
 import soot.Local;
 import soot.SootMethod;
 import soot.Unit;

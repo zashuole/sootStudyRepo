@@ -1,4 +1,4 @@
-package com.squirtle.constant;
+package com.squirtle.intraConstant;
 
 import soot.Local;
 
