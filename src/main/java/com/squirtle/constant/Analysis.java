@@ -34,7 +34,6 @@ public class Analysis extends ForwardFlowAnalysis<Unit, FlowSet<ValueDomain>> {
     protected void flowThrough(FlowSet<ValueDomain> in, Unit d, FlowSet<ValueDomain> out) {
         // 先复制前驱状态
         in.copy(out);
-
         // 只处理赋值语句
         if (d instanceof AssignStmt) {
             AssignStmt assign = (AssignStmt) d;
@@ -145,8 +144,6 @@ public class Analysis extends ForwardFlowAnalysis<Unit, FlowSet<ValueDomain>> {
         }
         if (toRemove != null) set.remove(toRemove);
     }
-
-    //更新已有 Local 的 ValueDomain
 
     @Override
     protected FlowSet<ValueDomain> newInitialFlow() {

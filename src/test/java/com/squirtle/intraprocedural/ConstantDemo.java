@@ -12,7 +12,7 @@ public class ConstantDemo {
 
     void constant1(boolean b) {
         int x = 2;
-        int y = 2;
+        int y = 3;
         int z;
         if (b) {
             z = x + y;
